@@ -1,5 +1,5 @@
 class Solution:
-    def searchBST(self, root: Optional[TreeNode], target: int) -> Optional[TreeNode]:
+    def searchBST(self, root, target):
         if root is None:
             return None
 
