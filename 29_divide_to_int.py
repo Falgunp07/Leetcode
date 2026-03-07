@@ -22,4 +22,4 @@ class Solution:
 
         output = output if not negative else -output
 
-        return min(max(-2147483648,output), 2147483648)
+        return min(max(-2**31, output), 2**31 - 1)
